@@ -13,62 +13,62 @@ interface IProduct {
 
 const productsToPreLoad: IProduct[] = [
   {
-    name: "iPhone 11",
-    price: 699,
+    name: "Equipo de Parámetros y Bioseñales",
+    price: 1699,
     description:
-      "Experience power and elegance with the iPhone 11: capture stunning moments with its dual-camera system, enjoy exceptional performance, and immerse yourself in a brilliant Liquid Retina display. Discover a world of possibilities in the palm of your hand!",
+      "El Equipo para el Estudio de Parámetros y Bioseñales Humanas en Biomedicina, Controlado desde Computador (PC), diseñado por EDIBON, permite a los estudiantes aprender a interpretar y realizar las mediciones de las bioseñales más...",
     image:
-      "https://www.apple.com/v/iphone-11/a/images/meta/og__f2j3dwkzna2u.png",
+      "https://www.edibon.com/67342-home_default/equipo-de-parametros-y-biosenales-en-biomedicina-controlado-desde-computador-pc.jpg",
     categoryId: 1,
     stock: 10,
   },
   {
-    name: "MacBook Air",
-    price: 999,
+    name: "Equipo de Simulación de Bioseñales ",
+    price: 8999,
     description:
-      "Embrace efficiency and sophistication with the MacBook Air: lightweight design meets powerful performance, stunning Retina display brings your work to life, and all-day battery life keeps you productive wherever you go. Elevate your computing experience with the MacBook Air.",
+      "El Simulador de Bioseñales de Pacientes en Biomedicina, Controlado desde Computador (PC), diseñado por EDIBON, permite a los estudiantes aprender a interpretar y tomar las medidas de las bioseñales más importantes: electrocardiograma...",
     image:
-      "https://www.apple.com/v/macbook-air/a/images/meta/og__d5k62k8b4qka.png",
+      "https://www.edibon.com/67131-home_default/equipo-de-simulacion-de-biosenales-de-pacientes-en-biomedicina-controlado-desde-computador-pc.jpg",
     categoryId: 2,
     stock: 10,
   },
   {
-    name: "iPad Pro",
-    price: 799,
+    name: "Equipo de Espirometría en Biomedicina",
+    price: 1799,
     description:
-      "Unleash your creativity and productivity with the iPad Pro: powerful performance, stunning Liquid Retina display, and all-day battery life make the iPad Pro the perfect tool for work and play. Transform your ideas into reality with the iPad Pro.",
+      "El Equipo para el Estudio de la Espirometría, Controlado desde Computador (PC), diseñado por EDIBON, está formado por un espirómetro profesional y un simulador de respiración compuesto por un actuador lineal eléctrico y dos simuladores de....",
     image:
-      "https://www.apple.com/v/ipad-pro/a/images/meta/og__d8m6x7smkntm.png",
+      "https://www.edibon.com/66966-home_default/equipo-de-espirometria-en-biomedicina-controlado-desde-computador-pc.jpg",
     categoryId: 3,
     stock: 10,
   },
   {
-    name: "Apple Watch Series 6",
-    price: 399,
+    name: "Equipo de Electrocirugía en Biomedicina",
+    price: 1399,
     description:
-      "Stay connected and healthy with the Apple Watch Series 6: track your workouts, monitor your health, and stay in touch with the people and information you care about most. Experience the future of health and wellness with the Apple Watch Series 6.",
+      "El Equipo para el Estudio de la Electrocirugía en Biomedicina, consiste en un equipo de electrocirugía utilizado en la medicina moderna para cortar tejidos, restringir el flujo sanguíneo y mejorar la visibilidad del cirujano durante las...",
     image:
-      "https://www.apple.com/v/apple-watch-series-6/a/images/meta/og__c1zv8c8n7q06.png",
+      "https://www.edibon.com/64340-home_default/equipo-de-electrocirugia-en-biomedicina.jpg",
     categoryId: 4,
     stock: 10,
   },
   {
-    name: "AirPods Pro",
-    price: 249,
+    name: "Equipo de Sistema Circulatorio en Biomedicina",
+    price: 3249,
     description:
-      "Immerse yourself in sound with the AirPods Pro: active noise cancellation, transparency mode, and customizable fit make the AirPods Pro the perfect companion for music, calls, and everything in between. Elevate your audio experience with the AirPods Pro.",
+      "El Equipo para el Estudio del Sistema Circulatorio en Biomedicina, Controlado desde Computador (PC), diseñado por EDIBON, permite a los estudiantes aprender a interpretar los resultados obtenidos por el viscosímetro y los sensores de...",
     image:
-      "https://www.apple.com/v/airpods-pro/a/images/meta/og__c1zv8c8n7q06.png",
+      "https://www.edibon.com/67336-home_default/equipo-de-sistema-circulatorio-en-biomedicina-controlado-desde-computador-pc.jpg",
     categoryId: 5,
     stock: 10,
   },
   {
-    name: "HomePod mini",
-    price: 99,
+    name: "Equipo de Electroterapia en Biomedicina",
+    price: 999,
     description:
-      "Elevate your home audio experience with the HomePod mini: immersive sound, intelligent assistant, and smart home hub make the HomePod mini the perfect addition to your home. Enjoy a world of music, news, and more with the HomePod mini.",
+      "Equipo para el Estudio de la Respuesta Eléctrica en Biomedicina, Controlado desde Computador (PC), está formado por una máquina de electroterapia, utilizado en el campo profesional y una caja de interfaz de control.La caja de interfaz de...",
     image:
-      "https://www.apple.com/v/homepod-mini/a/images/meta/og__d5k62k8b4qka.png",
+      "https://www.edibon.com/64335-home_default/equipo-de-electroterapia-en-biomedicina-controlado-desde-computador-pc.jpg",
     categoryId: 6,
     stock: 10,
   },
