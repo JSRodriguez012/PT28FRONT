@@ -16,6 +16,9 @@ export const registerUserService = async (
       body: JSON.stringify(userData),
     });
 
+     console.log("STATUS REGISTER:", response.status);
+    console.log("REGISTER RESPONSE:", await response.clone().text());
+
     if (response.ok)
       return response.json();
     else {
@@ -29,7 +32,7 @@ export const registerUserService = async (
 
 export const loginUserService = async (userData: LoginFormValuesInterface) => {
   try {
-    const response = await fetch(`${APIURL}:3002/users/login`, {
+    const response = await fetch(`${APIURL}/users/login`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
