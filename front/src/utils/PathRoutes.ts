@@ -3,4 +3,5 @@ export enum PATHROUTES {
   HOME = "/home",
   CART = "/cart",
   DASHBOARD = "/dashboard",
+  LOGOUT = "/logout",
 }

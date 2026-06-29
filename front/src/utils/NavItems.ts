@@ -21,4 +21,9 @@ export const NavItems = [
     nameToRender: "Dashboard",
     route: PATHROUTES.DASHBOARD,
   },
+  {
+    id:5,
+    nameToRender: "Log Out",
+    route: PATHROUTES.LOGOUT,
+  },
 ];

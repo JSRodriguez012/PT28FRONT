@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 sm:w-2/3 lg:w-3/12">
               <div className="mb-10 w-full">
-                <a href="/#" className="mb-6 inline-block max-w-[160px]">
+                <a href="/home" className="mb-6 inline-block max-w-[160px]">
                   <img
                     src="https://www.edibon.com/img/cms/Logo_Edibon.jpg"
                     alt="logo"
